@@ -392,6 +392,9 @@
     <PreferenceScreen android:title="@string/revanced_video" android:key="video">
         <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_video" />PREFERENCE: VIDEO_SETTINGS -->
 
+        <!-- SETTINGS: ENABLE_PROTOBUF_SPOOF
+        <SwitchPreference android:title="@string/revanced_enable_protobuf_spoof_title" android:key="revanced_enable_protobuf_spoof" android:defaultValue="true" android:summary="@string/revanced_enable_protobuf_spoof_summary" />SETTINGS: ENABLE_PROTOBUF_SPOOF -->
+
         <!-- SETTINGS: DEFAULT_VIDEO_QUALITY
         <ListPreference android:title="@string/revanced_default_video_quality_wifi_title" android:key="revanced_default_video_quality_wifi" android:entries="@array/revanced_default_video_quality_entry" android:defaultValue="-2" android:entryValues="@array/revanced_default_video_quality_entry_value" />
         <ListPreference android:title="@string/revanced_default_video_quality_mobile_title" android:key="revanced_default_video_quality_mobile" android:entries="@array/revanced_default_video_quality_entry" android:defaultValue="-2" android:entryValues="@array/revanced_default_video_quality_entry_value" />SETTINGS: DEFAULT_VIDEO_QUALITY -->
@@ -452,127 +455,6 @@
         <SwitchPreference android:title="@string/revanced_enable_vp9_codec_title" android:key="revanced_enable_vp9_codec" android:defaultValue="false" android:summary="@string/revanced_enable_vp9_codec_summary" />SETTINGS: ENABLE_VP9_CODEC -->
         <!-- SETTINGS: DISABLE_QUIC_PROTOCOL
         <SwitchPreference android:title="@string/revanced_disable_quic_protocol_title" android:key="revanced_disable_quic_protocol" android:defaultValue="false" android:summary="@string/revanced_disable_quic_protocol_summary" />SETTINGS: DISABLE_QUIC_PROTOCOL -->
-        <!-- SETTINGS: ENABLE_PROTOBUF_SPOOF
-        <SwitchPreference android:title="@string/revanced_enable_protobuf_spoof_title" android:key="revanced_enable_protobuf_spoof" android:defaultValue="true" android:summary="@string/revanced_enable_protobuf_spoof_summary" />SETTINGS: ENABLE_PROTOBUF_SPOOF -->
-        <PreferenceScreen android:title="@string/revanced_backup_title" android:key="backup" android:summary="@string/revanced_backup_summary">
-            <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_backup_title" />
-        </PreferenceScreen>
-
-        <Preference android:title=" " android:selectable="false" android:summary="@string/pref_about_category" />
-        <PreferenceScreen android:title="@string/revanced_patches_information"  android:summary="@string/revanced_patches_information_summary" >
-            <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_tool_used" />
-            <Preference android:title="revanced-patches" android:selectable="false" android:summary="2.173.10" />
-            <Preference android:title="revanced-integrations" android:key="revanced-integrations" android:selectable="false"/>
-
-            <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_ads" />
-            <Preference android:title="hide-general-ads" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-video-ads" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-
-            <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_swipe_controls" />
-            <Preference android:title="swipe-controls" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-
-            <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_shorts" />
-            <Preference android:title="hide-shorts-component" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="disable-startup-shorts-player" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-
-            <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_general" />
-            <Preference android:title="hide-stories" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="enable-wide-searchbar" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="enable-tablet-miniplayer" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-auto-captions" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-auto-player-popup-panels" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-mix-playlists" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-crowdfunding-box" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-email-address" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-snack-bar" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-search-terms" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-floating-microphone" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-category-bar" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-channel-avatar-section" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-breaking-news-shelf" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-load-more-button" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-account-menu" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="header-switch" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-
-            <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_player" />
-            <Preference android:title="hide-collapse-button" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-music-button" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-autoplay-button" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-cast-button" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-live-chat-button" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-captions-button" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-previous-next-button" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-player-button-background" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-endscreen-cards" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-info-cards" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-channel-watermark" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-suggested-actions" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-player-overlay-filter" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-
-            <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_fullscreen" />
-            <Preference android:title="hide-fullscreen-panels" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-autoplay-preview" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-endscreen-overlay" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-filmstrip-overlay" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-seek-message" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-quick-actions" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="disable-landscape-mode" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="disable-haptic-feedback" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-
-            <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_bottom_player" />
-            <Preference android:title="hide-button-container" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-comment-component" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-
-            <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_flyout_menu" />
-            <Preference android:title="enable-old-quality-layout" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-flyout-panel" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-
-            <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_navigation" />
-            <Preference android:title="change-homepage" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="enable-tablet-navigation-bar" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-navigation-buttons" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-navigation-label" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-shorts-navbar" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-
-            <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_seekbar" />
-            <Preference android:title="hide-seekbar" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="enable-seekbar-tapping" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="custom-seekbar-color" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-time-stamp" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="enable-timestamps-speed" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-
-            <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_overlay_button" />
-            <Preference android:title="overlay-buttons" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-
-            <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_video" />
-            <Preference android:title="default-video-quality" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="default-video-speed" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="custom-video-speed" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="disable-hdr-video" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-
-            <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_misc" />
-            <Preference android:title="enable-external-browser" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="enable-open-links-directly" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="bypass-ambient-mode-restrictions" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="spoof-app-version" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="layout-switch" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="force-vp9-codec" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="disable-quic-protocol" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="protobuf-spoof" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-
-            <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_others" />
-            <Preference android:title="return-youtube-dislike" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="sponsorblock" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="microg-support" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="custom-double-tap-length" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-double-tap-overlay-filter" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-pip-notification" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="hide-tooltip-content" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="optimize-resource" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="translations" android:summary="@string/revanced_patches_excluded" android:selectable="false"/>
-            <Preference android:title="labels" android:summary="@string/revanced_labels_default" android:selectable="false"/>
-            <Preference android:title="icons" android:summary="@string/revanced_icons_default" android:selectable="false"/>
-            <Preference android:title="themes" android:summary="@string/revanced_themes_default" android:selectable="false"/>
         </PreferenceScreen>
 
     </PreferenceScreen>

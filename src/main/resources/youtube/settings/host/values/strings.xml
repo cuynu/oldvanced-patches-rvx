@@ -156,8 +156,6 @@ Known issues
     <string name="revanced_enable_wide_searchbar_summary_on">Wide search bar is enabled</string>
     <string name="revanced_enable_wide_searchbar_title">Enable wide search bar</string>
     <string name="revanced_experimental_flag">Experimental Flags</string>
-    <string name="revanced_export_settings_summary">Save your ReVanced settings to file</string>
-    <string name="revanced_export_settings_title">Export settings</string>
     <string name="revanced_extended_support_center_summary">Report issues or leave suggestions here</string>
     <string name="revanced_extended_support_center_title">Support Center</string>
     <string name="revanced_flyout_menu">Flyout menu</string>
@@ -603,7 +601,7 @@ Since these setting is quite outdated, it may not be valid"</string>
     <string name="sb_api_url_reset">API URL reset</string>
     <string name="sb_api_url_invalid">API URL is invalid</string>
     <string name="sb_api_url_changed">API URL changed</string>
-    <string name="sb_settings_ie_sum">Your SponsorBlock JSON configuration that can be imported/exported to ReVanced and other SponsorBlock platforms. This includes your private user id. Be sure to share this wisely</string>
+    <string name="sb_settings_ie_sum">Your SponsorBlock JSON configuration that can be imported/exported to Vanced and other SponsorBlock platforms. This includes your private user id. Be sure to share this wisely</string>
 
     <string name="sb_diff_segments">Change segment behavior</string>
     <string name="sb_segments_sponsor">Sponsor</string>

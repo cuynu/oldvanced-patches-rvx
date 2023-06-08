@@ -22,10 +22,6 @@
     <string name="revanced_ad_remover_self_sponsor_summary_off">Thẻ được tài trợ được hiển thị</string>
     <string name="revanced_ad_remover_self_sponsor_summary_on">Thẻ được tài trợ đã ẩn</string>
     <string name="revanced_ad_remover_self_sponsor_title">Ẩn thẻ được tài trợ</string>
-    <string name="revanced_ad_remover_user_filter_summary_off">Bộ lọc cá nhân đã tắt</string>
-    <string name="revanced_ad_remover_user_filter_summary_on">Bộ lọc cá nhân đang bật</string>
-    <string name="revanced_ad_remover_user_filter_title">Bộ lọc cá nhân</string>
-    <string name="revanced_backup_summary">Nhập cấu hình ReVanced Extended từ tệp đã lưu hoặc xuất cấu hình của bạn sang tệp mới</string>
     <string name="revanced_bottom_player">Bên dưới trình phát</string>
     <string name="revanced_button_container_title">Bảng nút</string>
     <string name="revanced_bypass_ambient_mode_restrictions_summary_off">Chế độ môi trường xung quanh đã tắt khi tiết kiệm pin</string>
@@ -38,7 +34,6 @@
     <string name="revanced_copytimestamp_success">Đã sao chép liên kết với dấu thời gian vào bảng nhớ tạm</string>
     <string name="revanced_custom_seekbar_color_value_summary">Nhập mã màu hex của thanh tiến trình video mà bạn muốn thay đổi</string>
     <string name="revanced_custom_seekbar_color_value_title">Chọn màu thanh tiến trình tuỳ chỉnh</string>
-    <string name="revanced_default_app_settings_summary">Để mở URL bên ngoài trong ReVanced Extended, hãy bật tính năng Mở các liên kết được hỗ trợ và thêm các liên kết được hỗ trợ</string>
     <string name="revanced_default_app_settings_title">Mở theo mặc định</string>
     <string name="revanced_default_video_quality_mobile_title">Chất lượng video mặc định trên mạng di động</string>
     <string name="revanced_default_video_quality_wifi_title">Chất lượng video mặc định trên mạng Wi-Fi</string>
@@ -92,12 +87,6 @@
 
 Lưu ý:
 - Tính năng này sẽ thay đổi giao diện của ứng dụng, tuy nhiên có thể xảy ra các sự cố chưa xác định khác.\n- Nếu tắt tính năng này sau đó, giao diện cũ có thể vẫn tồn tại cho đến khi bạn xoá dữ liệu ứng dụng."</string>
-    <string name="revanced_spoof_app_version_title">Giả mạo phiên bản ứng dụng</string>
-    <string name="revanced_spoof_app_version_target_entry_1">17.41.37 - Khôi phục giao diện kệ Danh sách phát cũ trong thẻ Thư viện</string>
-    <string name="revanced_spoof_app_version_target_entry_2">17.30.34 - Khôi phục giao diện YouTube cũ</string>
-    <string name="revanced_spoof_app_version_target_entry_3">17.41.37 - Khôi phục tính năng sắp xếp video theo ngày thêm cũ nhất</string>
-    <string name="revanced_spoof_app_version_target_entry_4">16.08.35 - Khôi phục thẻ Khám phá</string>
-    <string name="revanced_spoof_app_version_target_title">Phiên bản giả mạo</string>
     <string name="revanced_enable_old_quality_layout_summary_off">Đang sử dụng bố cục Chất lượng video đang xem mặc định</string>
     <string name="revanced_enable_old_quality_layout_summary_on">Đang sử dụng bố cục Chất lượng video đang xem kiểu cũ</string>
     <string name="revanced_enable_old_quality_layout_title">Bố cục Chất lượng video kiểu cũ</string>
